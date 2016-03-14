@@ -13,7 +13,22 @@ article{
     margin-right: 5%;
     margin-top: 5%;
     background-color: white;
-    height: 100px;
+    height: 100%;
     width: 65%;
     float: right;
+    border-top: 50px solid rgb(163,207,61);
+}
+
+/* ------ TABELLEN ----- */
+
+table{
+    width: 90%;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 5%;
+}
+th{
+    height: 75px;
+    background-color: white;
+    border-collapse: collapse;
 }

@@ -28,8 +28,6 @@ a{
     float: left;
     height:100px;
     margin-left: 40px;
-    background-image: url("../images/logobg.png");
-    background-size: cover;
 }
 
 /* ----- NAVIGATION ----- */
