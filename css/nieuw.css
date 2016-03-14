@@ -1,0 +1,45 @@
+.jumbotron{
+    background-image: url("../images/jumbonew.jpg");
+}
+article{
+    width: 45%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: white;
+    display: inline-block;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.125);
+}
+.titel{
+    border: solid white;
+    border-width: 0px 0px 4px 0px;
+    width: 100%;
+    float: right;
+    background-color: rgb(163,207,61);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.titel h3{
+    margin: 5%;
+}
+p, h4{
+    padding: 10px;
+}
+.cover{
+    width: 260px;
+    height: 420px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+section{
+    margin:  10px;
+}
+
+@media all and (max-width: 890px) {
+    article{
+        display: block;
+        width: 94%;
+        margin: 2%;
+    }
+}

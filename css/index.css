@@ -1,0 +1,116 @@
+header:not(#mainheader){
+    margin: auto auto;
+    padding: 10px;
+    border: solid black;
+    border-width: 0px 0px 2px 0px;
+    width: 90%;
+}
+header:first-of-type{
+    padding: 0px;
+    border: none;
+    width: 100%;
+}
+article{
+    width: 60%;
+    margin: 2%;
+    background-color: white;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.125);
+}
+section{
+    background-color: white;
+}
+section img{
+    width: 80%;
+    margin: 10%;
+}
+p{
+    padding: 10px 20px 10px 20px;
+}
+.col-md-6{
+    width: 45.5%;
+    display: inline-block;
+}
+
+/* ----- AANRADERS -----*/
+
+#aanraders{
+    background-color: rgb(163,207,61);
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    -webkit-box-shadow: none;
+}
+#aanraders section{
+    max-width: 17.5%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(163,207,61);
+}
+#left{float: left;}
+#right{float: right;}
+#left, #right{ margin: 150px 20px 0 20px;}
+/* ----- ASIDE ------ */
+
+aside{
+    width: 34%;
+    margin: 2%;
+    float: right;
+    font-size: 15px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.125);
+}
+aside section{
+    margin: 1%;
+}
+tr td:first-of-type{
+    font-weight: bold;
+    padding: 10px;
+}
+tr td{
+    padding-left: 50px;
+}
+table{
+    margin-left: 15%;
+}
+@media screen and (max-width: 885px) {
+    article{
+        width: 100%;
+        margin: 2% 0px 2% 0px;
+        -webkit-box-shadow: none;
+    }
+    section{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    aside, aside section {
+        float: none;
+        width: 100%;
+        margin: 2% 0px 2% 0px;
+        -webkit-box-shadow: none;
+    }
+}
+@media screen and (max-width: 1524px) and (min-width: 885px) {
+    article{
+        width: 100%;
+        margin:0;
+        -webkit-box-shadow: 0;
+    }
+    section{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        margin:0 0 20px 0;
+        -webkit-box-shadow: 0;
+    }
+    aside section{
+        display: inline-block;
+        width: 99%;
+    }
+}

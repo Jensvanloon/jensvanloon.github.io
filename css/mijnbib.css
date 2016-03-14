@@ -1,0 +1,19 @@
+aside{
+    margin: 5%;
+    background-color: white;
+    width: 20%;
+}
+section p{
+    margin-left: 75px;
+}
+section h4{
+    padding: 15px;
+}
+article{
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: white;
+    height: 100px;
+    width: 65%;
+    float: right;
+}
