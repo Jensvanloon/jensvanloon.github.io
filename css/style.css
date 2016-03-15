@@ -1,13 +1,12 @@
 /* ----- BODY EN STRUCTUUR ----- */
-
 body{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Tahoma", sans-serif;
     background-color: #006B9A;
     margin: 0;
     min-height: 100vh;
 }
 .container{
-    margin: 0px 15% 10px 15% ;
+    margin: 0 15% 0 15%;
     background-color: whitesmoke;
     height: 100%;
 }
@@ -32,7 +31,8 @@ a{
 
 /* ----- NAVIGATION ----- */
 nav{
-    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
     width: 100%;
     background-color: whitesmoke;
 }
@@ -79,23 +79,6 @@ nav ul li ul li{
     background-color:  rgb(163,207,61);
 }
 
-@media screen and (max-width : 760px){
-    .show-menu {
-        display:block;
-    }
-}
-.show-menu {
-    display: none;
-    height: 100px;
-    background-color: white;
-}
-input[type=checkbox]{
-    display: none;
-}
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
 /* ----- FOOTER ----- */
 
 footer{

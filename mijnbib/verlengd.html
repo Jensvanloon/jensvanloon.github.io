@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Boek reserveren - BIB Malle</title>
+    <title>Verlengd! - BIB Malle</title>
 
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../css/responsive.css" rel="stylesheet" type="text/css">
@@ -30,30 +30,19 @@
         <div class="jumbotron"></div>
     </header>
     <article>
-        <form>
-            <fieldset>
-                <legend>Zoek je boek</legend>
-                <label for="titel"></label>
-                <input type="text" id="titel" placeholder="Titel">
-
-                <label for="auteur"></label>
-                <input type="text" id="auteur" placeholder="Auteur">
-
-                <label for="isbn"></label>
-                <input type="text" pattern="[0-9]{13}" title="Geef een ISBN nummer. bv 978 90 274 3964 2 (zonder spaties)" id="isbn" placeholder="ISBN">
-                <button>Zoeken</button>
-            </fieldset>
-        </form>
+        <h1>Je boek is succesvol verlengd! Na deze periode dien je je boek terug binnen te leveren of te verlengen. U heeft nog 1 verlenging(en) over.</h1>
+        <a href="../mijnbib.html"><button>Bekijk de rest van uw boeken</button></a>
+        <p></p>
     </article>
     <aside>
         <section>
             <a href="../mijnbib.html"><h4>MIJN BOEKEN</h4></a>
         </section>
-        <section>
+        <section class="active">
             <a href="verlengen.html"><h4>TERMIJN VERLENGEN</h4></a>
         </section>
-        <section class="active">
-            <a href="#"><h4>BOEK RESERVEREN</h4></a>
+        <section>
+            <a href="reserveren.html"><h4>BOEK RESERVEREN</h4></a>
         </section>
         <section>
             <a href="suggestie.html"><h4>SUGGESTIES</h4></a>

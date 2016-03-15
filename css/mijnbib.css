@@ -8,15 +8,33 @@ section p{
 }
 section h4{
     padding: 15px;
+    position: relative;
+}
+section h4:hover{
+    background-color: rgb(163,207,61);
+    color: white;
+    transition: all 0.2s;
+}
+.active h4:after {
+    left: 100%;
+    border: solid transparent;
+    content: "";
+    position: absolute;
+    border-left-color: #a3cf3d  ;
+    border-width: 25px;
+    margin-top: -15px;
 }
 article{
-    margin-right: 5%;
-    margin-top: 5%;
+    margin: 5%;
     background-color: white;
     height: 100%;
     width: 65%;
     float: right;
+    text-align: center;
     border-top: 50px solid rgb(163,207,61);
+}
+#overflow{
+    clear: both;
 }
 
 /* ------ TABELLEN ----- */
@@ -27,8 +45,38 @@ table{
     background-color: whitesmoke;
     margin: 5%;
 }
-th{
-    height: 75px;
-    background-color: white;
-    border-collapse: collapse;
+th, tr:first-of-type{
+    height: 50px;
+    background-color: rgb(163,207,61);
+    color: white;
+}
+td{
+    padding: 10px;
+}
+h1{
+    margin: 5%;
+}
+.othermonth{
+    color: darkgrey;
+}
+#currentday{
+    background-color: #006B9A;
+}
+.verlenging{
+    border: 2px solid darkorange;
+    display: block;
+}
+.verlenging a{display: block;}
+
+input[type=text]{
+    width: 26.666%;
+    display: inline-block;
+    border: 1px solid white;
+    padding-top: 2px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form{
+    margin: 5%;
 }

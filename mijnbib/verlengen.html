@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Uitlenen - BIB Malle</title>
+    <title>Termijn verlengen - BIB Malle</title>
 
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../css/responsive.css" rel="stylesheet" type="text/css">
@@ -30,14 +30,81 @@
         <div class="jumbotron"></div>
     </header>
     <article>
-
+        <h1>Termijn verlengen</h1>
+        <p>Wanneer u bij ons een boek leent mag u deeze steeds 3 weken ter beschikking houden.
+            Na deze periode kan u dit tweemaal verlengen met 3 weken.
+            Indien het boek gereserveerd is door anderen vragen wij u vriendelijk het boek terug te brengen voor de afgesproken datum.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>April</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Maandag</th>
+                <th>Dinsdag</th>
+                <th>Woensdag</th>
+                <th>Donderdag</th>
+                <th>Vrijdag</th>
+                <th>Zaterdag</th>
+                <th>Zondag</th>
+            </tr>
+            <tr>
+                <td class="othermonth">28</td>
+                <td class="othermonth">29</td>
+                <td class="othermonth">30</td>
+                <td class="othermonth">31</td>
+                <td id="currentday">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td class="verlenging"><a href="verlengd.html">4</a></td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td class="verlenging"><a href="verlengd.html">25</a></td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="othermonth">1</td>
+            </tr>
+            </tbody>
+        </table>
     </article>
     <aside>
         <section>
             <a href="../mijnbib.html"><h4>MIJN BOEKEN</h4></a>
         </section>
         <section class="active">
-            <a href="#.html"><h4>TERMIJN VERLENGEN</h4></a>
+            <a href="#"><h4>TERMIJN VERLENGEN</h4></a>
         </section>
         <section>
             <a href="reserveren.html"><h4>BOEK RESERVEREN</h4></a>
@@ -48,8 +115,8 @@
         <section>
             <a href="profiel.html"><h4>MIJN PROFIEL</h4></a>
         </section>
-
     </aside>
+    <br id="overflow">
 </div>
 <footer>
     <img src="../images/icons/facebook-logo-button.png" class="socialbuttons" alt="Blijf op de hoogte van alle nieuwtjes!">
