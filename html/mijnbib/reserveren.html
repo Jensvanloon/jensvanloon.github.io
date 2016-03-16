@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width">
     <title>Boek reserveren - BIB Malle</title>
 
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
-    <link href="../css/mijnbib.css" rel="stylesheet" type="text/css">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../../css/mijnbib.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="container">
     <header>
-        <img src="../images/logo.png" id="logo">
+        <img src="../../images/logo.png" id="logo">
         <nav>
             <ul id="menu">
                 <li class="active"><a href="../mijnbib.html">Mijn Bib</a></li>
@@ -24,7 +24,7 @@
                     </ul>
                 </li>
                 <li><a href="../nieuw.html">Nieuw</a></li>
-                <li><a href="../index.html">Startpagina</a></li>
+                <li><a href="../../index.html">Startpagina</a></li>
             </ul>
         </nav>
         <div class="jumbotron"></div>
@@ -34,14 +34,14 @@
             <fieldset>
                 <legend>Zoek je boek</legend>
                 <label for="titel"></label>
-                <input type="text" id="titel" placeholder="Titel">
+                <input required type="text" id="titel" placeholder="Titel">
 
                 <label for="auteur"></label>
-                <input type="text" id="auteur" placeholder="Auteur">
+                <input required type="text" id="auteur" placeholder="Auteur">
 
                 <label for="isbn"></label>
-                <input type="text" pattern="[0-9]{13}" title="Geef een ISBN nummer. bv 978 90 274 3964 2 (zonder spaties)" id="isbn" placeholder="ISBN">
-                <button>Zoeken</button>
+                <input required type="text" pattern="[0-9]{13}" title="Geef een ISBN nummer. bv 978 90 274 3964 2 (zonder spaties)" id="isbn" placeholder="ISBN">
+                <button>Reserveren</button>
             </fieldset>
         </form>
     </article>
@@ -66,9 +66,9 @@
     <br id="overflow">
 </div>
 <footer>
-    <img src="../images/icons/facebook-logo-button.png" class="socialbuttons" alt="Blijf op de hoogte van alle nieuwtjes!">
-    <img src="../images/icons/twitter.png" class="socialbuttons" alt="Volg onze mening!">
-    <img src="../images/icons/information-button.png" class="socialbuttons" alt="Heeft u een vraag of opmerking?">
+    <img src="../../images/icons/facebook-logo-button.png" class="socialbuttons" alt="Blijf op de hoogte van alle nieuwtjes!">
+    <img src="../../images/icons/twitter.png" class="socialbuttons" alt="Volg onze mening!">
+    <img src="../../images/icons/information-button.png" class="socialbuttons" alt="Heeft u een vraag of opmerking?">
     <p>&copy; Jens Van Loon</p>
 </footer>
 </body>

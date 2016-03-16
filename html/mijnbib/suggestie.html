@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Suggesties - BIB Malle</title>
+
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../../css/mijnbib.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="../../images/logo.png" id="logo">
+        <nav>
+            <ul id="menu">
+                <li class="active"><a href="../mijnbib.html">Mijn Bib</a></li>
+                <li><a href="../catalogus.html">Catalogus</a>
+                    <ul>
+                        <li><a href="../catalogus/romans.html">Roman</a></li>
+                        <li><a href="../catalogus">Informatief</a></li>
+                        <li><a href="../catalogus/strips.html">Strips</a></li>
+                    </ul>
+                </li>
+                <li><a href="../nieuw.html">Nieuw</a></li>
+                <li><a href="../../index.html">Startpagina</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron"></div>
+    </header>
+    <article>
+        <h1>Uw suggesties</h1>
+        <p>
+            Hieronder vindt u een overzicht van uw suggesties.
+            Het kan zijn dat uw suggestie al dan niet is goedgekeurd.
+            U kan steeds een nieuwe suggestie toevoegen in het formulier onderaan deze pagina.
+        </p>
+        <table>
+            <tr>
+                <th>titel</th>
+                <th>auteur</th>
+                <th>type</th>
+                <th>bron</th>
+                <th>isbn</th>
+                <th>opmerking</th>
+            </tr>
+            <tr>
+                <td>Misschien morgen...</td>
+                <td>Patricia McCormick</td>
+                <td>Roman</td>
+                <td>boekenzoeker.org</td>
+                <td>9789049951641</td>
+                <td>Het boek leest vlot. Aangeraden voor jongvolwassenen!</td>
+            </tr>
+        </table>
+        <p>Vul de gegevens in het formulier in en wie weet vindt u uw suggestie binnenkort bij ons in de bibliotheek.</p>
+        <form>
+            <fieldset>
+                <legend>Doe een suggestie</legend>
+                <label for="titel"></label>
+                <input type="text" id="titel" placeholder="Titel" required>
+
+                <label for="auteur"></label>
+                <input type="text" id="auteur" placeholder="Auteur" required>
+
+                <label for="type"></label>
+                <select id="type">
+                    <option>Roman</option>
+                    <option>Informatief</option>
+                    <option>Strip</option>
+                </select>
+
+                <label for="bron"></label>
+                <input type="text" id="bron" placeholder="Bron" required>
+
+                <label for="isbn"></label>
+                <input type="text" pattern="[0-9]{13}" title="Geef een ISBN nummer. bv 978 90 274 3964 2 (zonder spaties)" id="isbn" placeholder="ISBN" required>
+
+                <label for="opm"></label>
+                <textarea id="opm" placeholder="Waarom moet men dit lezen?"></textarea>
+                <button>Suggestie doen</button>
+            </fieldset>
+        </form>
+    </article>
+    <aside>
+        <section>
+            <a href="../mijnbib.html"><h4>MIJN BOEKEN</h4></a>
+        </section>
+        <section>
+            <a href="verlengen.html"><h4>TERMIJN VERLENGEN</h4></a>
+        </section>
+        <section>
+            <a href="reserveren.html"><h4>BOEK RESERVEREN</h4></a>
+        </section>
+        <section class="active">
+            <a href="suggestie.html"><h4>SUGGESTIES</h4></a>
+        </section>
+        <section>
+            <a href="profiel.html"><h4>MIJN PROFIEL</h4></a>
+        </section>
+    </aside>
+    <br id="overflow">
+</div>
+<footer>
+    <img src="../../images/icons/facebook-logo-button.png" class="socialbuttons" alt="Blijf op de hoogte van alle nieuwtjes!">
+    <img src="../../images/icons/twitter.png" class="socialbuttons" alt="Volg onze mening!">
+    <img src="../../images/icons/information-button.png" class="socialbuttons" alt="Heeft u een vraag of opmerking?">
+    <p>&copy; Jens Van Loon</p>
+</footer>
+</body>
+</html>

@@ -1,5 +1,5 @@
 header:not(#mainheader){
-    margin: auto auto;
+    margin: 0 auto;
     padding: 10px;
     border: solid black;
     border-width: 0 0 2px 0;
@@ -11,24 +11,16 @@ header:first-of-type{
     width: 100%;
 }
 article{
-    width: 60%;
+    width: 64%;
     margin: 2%;
-    background-color: white;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.125);
-}
-section{
-    background-color: white;
 }
 section img{
-    width: 80%;
-    margin: 10%;
-}
-p{
-    padding: 10px 20px 10px 20px;
+    width: 100%;
+    margin: 0 auto;
 }
 .col-md-6{
     width: 45.5%;
-    display: inline-block;
+    display: inline-table;
 }
 
 /* ----- AANRADERS -----*/
@@ -37,47 +29,35 @@ p{
     background-color: rgb(163,207,61);
     width: 100%;
     margin: 0;
-    overflow: hidden;
-    -webkit-box-shadow: none;
 }
 #aanraders section{
-    max-width: 17.5%;
-    margin: 0;
+    max-width: 15.5%;
+    margin: 2%;
     display: inline-block;
     text-align: center;
     background-color: rgb(163,207,61);
 }
-#left{float: left;}
-#right{float: right;}
-#left, #right{ margin: 150px 20px 0 20px;}
 
 /* ----- ASIDE ------ */
 
 aside{
-    width: 34%;
+    width: 30%;
     margin: 2%;
     float: right;
-    background-color: white;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.125);
-}
-aside section{
-    margin: 1%;
 }
 tr td:first-of-type{
     font-weight: bold;
-    padding: 10px;
+    border: none;
 }
-tr td{
-    padding-left: 50px;
-}
-table{
-    margin-left: 15%;
+tr td:last-of-type{
+    min-width: 150px;
+    padding: 5px;
+    border: none;
 }
 @media screen and (max-width: 885px) {
-    article{
+    article, .col-md-6{
         width: 100%;
-        margin: 2% 0 2% 0;
-        box-shadow: none;
+        margin: 0 auto;
     }
     section{
         width: 100%;
@@ -88,29 +68,20 @@ table{
     aside, aside section {
         float: none;
         width: 100%;
-        margin: 2% 0 2% 0;
-        box-shadow: none;
+        margin: 0 auto;
+    }
+    #aanraders section:not(:first-of-type){
+        display: none;
     }
 }
 @media screen and (max-width: 1524px) and (min-width: 885px) {
     article{
-        width: 100%;
-        margin:0;
-        box-shadow: 0;
+        width: 54%;
     }
-    section{
-        width: 100%;
+    aside{
+        width: 40%;
     }
-    header{
-        width: 100%;
-    }
-    aside {
-        width: 100%;
-        margin:0 0 20px 0;
-        box-shadow: 0;
-    }
-    aside section{
-        display: inline-block;
-        width: 99%;
+    .container{
+        margin: 5%;
     }
 }
