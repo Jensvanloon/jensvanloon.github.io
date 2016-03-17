@@ -3,16 +3,14 @@
     background-image: url("../images/jumbocat.jpg");
 }
 .subnav ul li{
-    width: 30%;
-    float: left;
+    width: 26.666%;
     background-color: white;
 }
 .subnav ul li img{
     margin-top: 15px;
 }
 .subnav ul li:first-of-type{
-    width: 10%;
-    float: left;
+    width: 20%;
 }
 .subnav ul{
     margin: 0;
@@ -23,13 +21,11 @@
 p{
     padding: 0 5% 0 5%;
 }
-
 .cover{
     position: absolute;
-    margin-left: -70%;
-    border: none;
+    margin-left: -75%;
     display: none;
-
+    border: 5px solid #a3cf3d;
 }
 tr:hover .cover{
     display: block;

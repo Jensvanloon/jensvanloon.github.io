@@ -78,4 +78,19 @@ h1{
         display: inline;
         margin: 0;
     }
+    .active h4:after {
+        border: none;
+    }
+    .resp tr:first-of-type{
+        display: none;
+    }
+    .resp td{
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .resp td:last-of-type{
+        border: none;
+        background-color: white;
+    }
 }

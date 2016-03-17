@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 .container{
-    margin: 0 15%;
+    margin: 0 10%;
     background-color: whitesmoke;
     height: 100%;
 }
@@ -131,6 +131,7 @@ footer{
     margin: 12px;
     line-height: 35px;
     padding-top: 10px;
+    font-size: 12px;
 }
 article, section, aside{
     background-color: white;
