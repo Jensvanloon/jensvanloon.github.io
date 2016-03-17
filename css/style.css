@@ -10,10 +10,17 @@ body{
     height: 100%;
 }
 .jumbotron{
-    height: 400px;
+    height: 450px;
     background-image: url("../images/jumbo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 50px solid #a3cf3d;
+    box-sizing: border-box;
+}
+.breadcrumbs{
+    position: absolute;
+    top: 507px;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -150,6 +157,9 @@ article, section, aside{
     .jumbotron{
         background-image: none;
         height: 400px;
+    }
+    .breadcrumbs{
+        display: none;
     }
 }
 @media screen and (max-width: 1524px) and (min-width: 885px) {

@@ -12,14 +12,9 @@
 .subnav ul li:first-of-type{
     width: 20%;
 }
-.subnav ul{
+.subnav ul {
     margin: 0;
     padding: 0;
-}
-
-/* ----- TEKST -----*/
-p{
-    padding: 0 5% 0 5%;
 }
 .cover{
     position: absolute;
