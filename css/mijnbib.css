@@ -67,6 +67,10 @@ h1{
 }
 .verlenging a{display: block;}
 
+.resp td:last-of-type{
+    display: none;
+}
+
 @media screen and (max-width: 885px) {
     article{
         width: 100%;
@@ -81,7 +85,7 @@ h1{
     .active h4:after {
         border: none;
     }
-    .resp tr:first-of-type{
+    .resp th{
         display: none;
     }
     .resp td{
@@ -90,6 +94,7 @@ h1{
         padding: 10px 0;
     }
     .resp td:last-of-type{
+        display: block;
         border: none;
         background-color: white;
     }
