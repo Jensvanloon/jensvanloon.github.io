@@ -7,6 +7,7 @@
 
         <link href="../css/style.css" rel="stylesheet" type="text/css">
         <link href="../css/catalogus.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="../images/favicon.png">
     </head>
     <body>
         <div class="container">
@@ -26,7 +27,7 @@
                         <li><a href="../index.html">Startpagina</a></li>
                     </ul>
                 </nav>
-                <div class="jumbotron"><p class="breadcrumbs">Startpagina >></p></div>
+                <div class="jumbotron"><p class="breadcrumbs"><a href="../index.html">Startpagina</a> >> <a href="#">Catalogus</a></p></div>
             </header>
             <nav class="subnav">
                 <ul>
@@ -36,6 +37,28 @@
                     <li><a href="catalogus/strips.html">Strips</a></li>
                 </ul>
             </nav>
+            <aside>
+                <h3>Uw zoekresultaten worden hier weergeven</h3>
+            </aside>
+            <form>
+                    <label for="titel"></label>
+                    <input type="text" id="titel" placeholder="Titel">
+
+                    <label for="auteur"></label>
+                    <input type="text" id="auteur" placeholder="Auteur">
+
+
+                    <label for="pags"></label>
+                    <input type="text" pattern="[0-9]" id="pags" placeholder="Aantal pagina's ">
+
+                    <label for="type"></label>
+                    <select id="type">
+                        <option>Roman</option>
+                        <option>Informatief</option>
+                        <option>Strip</option>
+                    </select>
+                    <button>Zoeken</button>
+            </form>
         </div>
         <footer>
             <a href="https://www.facebook.com/profile.php?id=100009402903059&fref=ts"><img src="../images/icons/facebook-logo-button.png" class="socialbuttons" alt="Blijf op de hoogte van alle nieuwtjes!"></a>

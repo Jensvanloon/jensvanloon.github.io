@@ -14,7 +14,7 @@ article{
     width: 64%;
     margin: 2%;
 }
-.nieuws{
+img{
     width: 90%;
     margin: 5%;
 }
@@ -31,13 +31,12 @@ article{
     margin: 0;
 }
 #aanraders section{
-    max-width: 15.5%;
-    margin: 2%;
     display: inline-block;
     text-align: center;
+    width: 15.5%;
+    margin: 2%;
     background-color: rgb(163,207,61);
 }
-
 /* ----- ASIDE ------ */
 
 aside{

@@ -1,3 +1,7 @@
+.jumbotron{
+    background: url("../images/jumbo1.jpg");
+    background-size: cover;
+}
 aside{
     margin: 5%;
     background-color: white;

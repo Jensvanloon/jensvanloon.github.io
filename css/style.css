@@ -35,6 +35,8 @@ p, h1, h2, h3, h4, h5{
 #logo{
     float: left;
     height:100px;
+    width: 197px;
+    margin: 0;
     margin-left: 40px;
 }
 
@@ -91,10 +93,10 @@ nav ul li ul li{
 
 input[type=text], select, button{
     width: 26.666%;
-    display: inline-block;
     border: 1px solid white;
     padding-top: 2px;
     height: 40px;
+    margin: 5px;
     padding-left: 10px;
     padding-right: 10px;
 }

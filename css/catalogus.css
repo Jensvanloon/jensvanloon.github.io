@@ -18,10 +18,29 @@
 }
 .cover{
     position: absolute;
-    margin-left: -75%;
+    margin-left: -81%;
     display: none;
     border: 5px solid #a3cf3d;
 }
 tr:hover .cover{
     display: block;
+}
+aside{
+    float: right;
+    width: 60%;
+    margin: 5%;
+    text-align: center;
+}
+form{
+    width: 80%;
+    display: block;
+}
+@media screen and (max-width: 885px) {
+    form{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        float: none;
+    }
 }
